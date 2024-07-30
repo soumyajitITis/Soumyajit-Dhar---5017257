@@ -1,0 +1,29 @@
+Big O Notation:
+Big O notation is a mathematical representation used to describe the performance or complexity of an algorithm. It characterizes an algorithm based on how its runtime or space requirements grow as the input size grows.
+-O(1): Constant time
+-O(log n): Logarithmic time
+-O(n): Linear time
+-O(n log n): Linear time
+-O(n^2): Quadratic time
+
+Best, Average, and Worst-Case Scenarios:
+-Best Case: The scenario where the algorithm performs the minimum number of operations.
+-Average Case: The scenario where the algorithm performs an average number of operations.
+-Worst Case: The scenario where the algorithm performs the maximum number of operations.
+-Search Operations
+
+Time Complexity:
+ #Linear Search:
+ Best Case: O(1) - The item is the first element in the array.
+ Average Case: O(n) - The item is in the middle of the array.
+ Worst Case: O(n) - The item is the last element or not present in the array.
+
+ #Binary Search:
+ Best Case: O(1) - The item is the middle element.
+ Average Case: O(log n) - The item is somewhere in the array.
+ Worst Case: O(log n) - The item is not present in the array.
+
+
+Suitable Algorithm for the Platform
+For an e-commerce platform where fast search performance is crucial, binary search is more suitable due to its logarithmic time complexity. However, binary search requires the array to be sorted. This means there might be an initial overhead to sort the array, but for frequent search operations, the performance gain is significant compared to linear search.
+

@@ -1,0 +1,11 @@
+#Recursion:
+ Recursion is a method of solving problems where a function calls itself as a subroutine. This allows the function to be repeated several times as it can call itself during its execution. A recursive function typically has two main parts:
+ -Base Case: The condition under which the recursion ends.
+ -Recursive Case: The part where the function calls itself with modified arguments.
+ Recursion can simplify problems that have a repetitive structure, such as mathematical sequences, tree traversal, and factorial calculation, by breaking them down into simpler sub-problems.
+
+#Time Complexity:
+ The time complexity of the recursive algorithm is O(n), where n is the number of periods. This is because the function makes one recursive call for each period, leading to n calls.
+
+#Optimization-
+ Recursive algorithms can lead to excessive computation and stack overflow if not managed properly. One way to optimize is by using memoization to store and reuse the results of expensive function calls. However, for this specific problem, memoization is not necessary because each call is unique and does not benefit from reuse. Instead, an iterative approach can be more efficient for this problem, avoiding the overhead of multiple function calls.

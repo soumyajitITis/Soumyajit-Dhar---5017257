@@ -1,0 +1,25 @@
+#Why Data Structures and Algorithms are essential in handling large inventories?
+- In inventory management systems, efficient data structures are crucial because:-
+a. Scalability: The system must be able to handle large volumes of data efficiently as the number of products increases,
+b. Peformance: Fast retrieval, insertion, and deletion of product information are necessary to maintain system performance,
+c. Resource Management: Optimal usage of the memory and processor.
+
+#Types of Data Structures that can be used:
+a. ArrayList
+b. HashMap
+c. TreeMap
+d. LinkedList
+
+Each have their own advantages and disadvantages.
+
+#Time Complexity:
+- Add product - O(1)
+- Update product - O(1)
+- Delete product - O(1)
+- Retrieve product - O(1)
+
+This is because we are using a HashMap.
+
+#Optimization:
+> Load Factor and Rehashing: Ensure load factor of the HashMap is managed to minimize the number of rehashes,
+> Memory Management: Periodically clean unused objects.
