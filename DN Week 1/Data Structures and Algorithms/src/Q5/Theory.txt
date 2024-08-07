@@ -1,0 +1,23 @@
+#Types of Linked Lists:
+ Singly Linked List:
+ Each node contains data and a reference to the next node.
+ Simple to implement and efficient for insertions and deletions from the beginning.
+ Limitation: Cannot traverse backward.
+
+ Doubly Linked List:
+ Each node contains data, a reference to the next node, and a reference to the previous node.
+ Allows traversal in both directions.
+ More complex to implement and requires additional memory for the previous reference.
+
+#Time Complexity
+ Add: O(n) - Traverses the list to the end and adds the task.
+ Search: O(n) - Traverses the list to find the task.
+ Traverse: O(n) - Traverses all elements in the list.
+ Delete: O(n) - Traverses the list to find and delete the task.
+
+ >Advantages of Linked Lists over Arrays
+ -Dynamic Size: Linked lists can grow and shrink in size dynamically, unlike arrays which have a fixed size.
+ -Efficient Insertions/Deletions: Insertions and deletions are efficient as they do not require shifting elements, unlike arrays.
+ -Memory Utilization: Memory is allocated as needed, reducing wasted space compared to arrays with a fixed capacity.
+
+ However, linked lists require more memory due to the additional reference for each node and can have slower access times due to the need to traverse the list.
